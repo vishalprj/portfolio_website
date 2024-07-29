@@ -29,7 +29,10 @@ export const Contact: NextComponentType = () => (
           <AiOutlineTwitter />
         </a>
       </Link>
-      <Link href="www.linkedin.com/in/vishal-prajapati-b67ba6193" passHref>
+      <Link
+        href="https://www.linkedin.com/in/vishal-prajapati-b67ba6193/"
+        passHref
+      >
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
