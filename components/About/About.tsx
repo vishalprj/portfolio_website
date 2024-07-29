@@ -7,12 +7,12 @@ import type { NextComponentType } from 'next';
 export const About: NextComponentType = () => (
   <section className="my-8 flex flex-row items-center justify-between px-3">
     <div>
-      <h1 className="text-4xl font-bold dark:text-white">Avinash</h1>
+      <h1 className="text-4xl font-bold dark:text-white">Vishal</h1>
       <p className="mt-1 text-lg">Frontend Developer, Blogger and a Student</p>
       <p className="mt-4 dark:text-gray-400 text-gray-500">
         Building Web apps, proficient in Frontend.
       </p>
-      <Link href="https://avinashprj.hashnode.dev" passHref>
+      <Link href="https://vishalpraj.hashnode.dev" passHref>
         <a
           className="group mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl  dark:text-gray-400 text-gray-500 transition-all duration-150 hover:text-white"
           target="_blank"
@@ -22,7 +22,7 @@ export const About: NextComponentType = () => (
           <AiOutlineArrowRight className="text-[1.1rem] duration-150 group-hover:ml-1 rounded-full" />
         </a>
       </Link>
-      <Link href="https://www.buymeacoffee.com/avinashprj" passHref>
+      <Link href="https://www.buymeacoffee.com/vishalprj" passHref>
         <a
           className="group mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl  dark:text-gray-400 text-gray-500 transition-all duration-150 hover:text-white"
           target="_blank"
@@ -35,7 +35,7 @@ export const About: NextComponentType = () => (
     </div>
     <div className="hidden custom:block">
       <Image
-        src="https://res.cloudinary.com/avinashprj/image/upload/v1706524463/IMG_0900_lgnuiz.jpg"
+        src="https://res.cloudinary.com/ddlpde95c/image/upload/v1722244951/Snapchat-1535746675_ph0eez.jpg"
         width="200"
         height="200"
         objectFit="cover"
