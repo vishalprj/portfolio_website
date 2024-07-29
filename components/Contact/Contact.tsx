@@ -9,7 +9,7 @@ export const Contact: NextComponentType = () => (
     <p className="text-3xl font-bold dark:text-white">Get in touch</p>
 
     <div className="mt-8 mb-6 flex flex-row justify-center gap-x-4">
-      <Link href="https://github.com/avinashprj" passHref>
+      <Link href="https://github.com/vishalprj" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -19,7 +19,7 @@ export const Contact: NextComponentType = () => (
           <AiOutlineGithub />
         </a>
       </Link>
-      <Link href="https://twitter.com/avinash_prj" passHref>
+      <Link href="https://x.com/Vishalpraj" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -29,7 +29,10 @@ export const Contact: NextComponentType = () => (
           <AiOutlineTwitter />
         </a>
       </Link>
-      <Link href="https://linkedin.com/in/avinash-prajapati" passHref>
+      <Link
+        href="https://www.linkedin.com/in/vishal-prajapati-b67ba6193/"
+        passHref
+      >
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -39,7 +42,7 @@ export const Contact: NextComponentType = () => (
           <GrLinkedinOption />
         </a>
       </Link>
-      <Link href="mailto:kr.avinashprajapati914@gmail.com" passHref>
+      <Link href="mailto:kr.vishalpraj188@gmail.com" passHref>
         <a
           className="rounded-lg dark:bg-zinc-800 p-2 text-2xl dark:text-white  dark:ring-zinc-300 ring-zinc-500 transition-all duration-150 hover:ring-2"
           target="_blank"
@@ -54,7 +57,7 @@ export const Contact: NextComponentType = () => (
       made with <AiFillHeart className=" mx-1 text-red-500" /> and NextJS
     </div>
     <div className="flex flex-row justify-center text-gray-400">
-      © {new Date().getFullYear()} Avinash Prajapati
+      © {new Date().getFullYear()} Vishal Prajapati
     </div>
   </div>
 );
