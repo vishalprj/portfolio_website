@@ -22,7 +22,7 @@ export const ProjectCard: NextComponentType<
             Live
           </a>
         </Link>
-        <Link href={sourceLink}>
+        <Link href={liveLink}>
           <a
             className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 flex justify-center items-center text-2xl   background-transparent font-bold uppercase outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
             target="_blank"
