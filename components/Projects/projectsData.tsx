@@ -25,12 +25,12 @@ export const projectsData: ProjectDataTypes[] = [
     techStack:
       'React, Redux-toolkit, RTK-query, Vanilla CSS and Auth using JWT',
   },
-  //   {
-  //     liveLink: 'https://nucleus-book.vercel.app',
-  //     sourceLink: 'https://github.com/avinashprj/nucleus-book',
-  //     id: 'nucleus-book',
-  //     title: 'Nucleus-book',
-  //     img: 'https://res.cloudinary.com/avinashprj/image/upload/v1670864890/Screenshot_2022-12-12_223737_r9fcsn.png',
-  //     techStack: 'React, Redux-toolkit, Vanilla CSS and Auth using JWT',
-  //   },
+  {
+    liveLink: 'https://book-exchange-platform-two.vercel.app/',
+    sourceLink: 'https://gitlab.com/vishalprj/book-exchange-platform',
+    id: 'apex-book-store',
+    title: 'Book-exchange-store',
+    img: 'https://res.cloudinary.com/ddlpde95c/image/upload/v1724672880/Screenshot_2024-08-26_at_5.17.21_PM_xmxdm9.png',
+    techStack: 'Next JS, MongoDB with Prisma, Module CSS',
+  },
 ];
